@@ -1,0 +1,27 @@
+{
+    "name": "kickpeach/database",
+    "description": "a database component",
+    "authors": [
+        {
+            "name": "shisiying",
+            "email": "shisiying@xhzyxed.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "KickPeach\\DataBase\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\KickPeach\\DataBase\\": "tests/"
+        }
+    }
+}
